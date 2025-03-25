@@ -62,7 +62,7 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 - Signed in via [portal.office.com](https://portal.office.com)
 - Prompted for MFA and successfully authenticated via **Microsoft Authenticator**
 
-📸 _[Insert screenshot of MFA prompt here]_
+📸 _[MFA prompt]_
 
 ---
 
@@ -70,7 +70,7 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 - Signed in from an **unmanaged device** (Incognito browser)
 - Triggered Conditional Access Policy
 
-📸 _[Insert screenshot of access blocked message here]_
+📸 _[screenshot of access blocked message]_
 
 ---
 
@@ -87,6 +87,6 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 
 > 📷 Place images in a `/screenshots` folder inside this project  
 markdown
-![MFA Prompt](https://raw.githubusercontent.com/markwhyce-svg/iam-project-series/main/project1-conditional-access/screenshots/mfa-prompt.png)
+![MFA Prompt](https://raw.githubusercontent.com/markwhyce-svg/iam-project-series/main/project1-conditional-access/screenshots/mfa-prompt.jpg)
 ![Access Blocked](screenshots/access-blocked.png)  
 ![Policy Settings](screenshots/conditional-policy.png)
