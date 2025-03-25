@@ -86,7 +86,7 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 ## 📁 Screenshots
 
 > 📷 Place images in a `/screenshots` folder inside this project  
-```markdown
+markdown
 ![MFA Prompt](https://raw.githubusercontent.com/markwhyce-svg/iam-project-series/main/project1-conditional-access/screenshots/mfa-prompt.png)
 ![Access Blocked](screenshots/access-blocked.png)  
 ![Policy Settings](screenshots/conditional-policy.png)
