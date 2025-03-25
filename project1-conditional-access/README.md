@@ -62,7 +62,7 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 - Signed in via [portal.office.com](https://portal.office.com)
 - Prompted for MFA and successfully authenticated via **Microsoft Authenticator**
 
-📸 _[MFA prompt]_
+📸 ![MFA prompt](https://github.com/markwhyce-svg/iam-project-series/blob/4eca4d68c25cac4745e563888a4a687415119799/project1-conditional-access/mfa-prompt.jpeg)
 
 ---
 
