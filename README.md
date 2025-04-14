@@ -1,4 +1,4 @@
-# 🔐 Identity & Access Management (IAM) Project Series
+# 🔐 Azure AD IAM  Project Series
 
 
 Welcome to my **IAM Project Series**, where I explore real-world Identity and Access Management concepts using **Azure Active Directory**. These hands-on projects demonstrate my understanding of user authentication, role governance, access control, security auditing, and lifecycle management — key areas in any modern cybersecurity program.
