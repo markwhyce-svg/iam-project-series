@@ -82,11 +82,3 @@ This project demonstrates how to configure Identity and Access Management (IAM) 
 - Policies should be clearly documented to avoid locking out admins
 
 ---
-
-## 📁 Screenshots
-
-> 📷 Place images in a `/screenshots` folder inside this project  
-markdown
-![MFA Prompt](screenshots/mfa-prompt.jpg)
-![Access Blocked](screenshots/access-blocked.png)  
-![Policy Settings](screenshots/conditional-policy.png)
