@@ -30,3 +30,6 @@ Welcome to my **IAM Project Series**, where I explore real-world Identity and Ac
 - 📊 Security Auditing & Alerting
 - 🧩 OAuth2, SAML, and SSO App Integration
 - ⚙️ Azure Sentinel Log Analysis
+---
+
+> 🔧 Built with curiosity, purpose, and a passion for secure identity systems – by [Michael Akintuyosi](https://www.linkedin.com/in/michael-akintuyosi-025317183/)
