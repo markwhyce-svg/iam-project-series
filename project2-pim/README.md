@@ -2,8 +2,7 @@
 
 ## 📘 Overview
 
-This project demonstrates how to implement **Just-in-Time (JIT)** access to privileged roles using **Microsoft Entra Privileged Identity Management (PIM)**.  
-The objective is to reduce standing admin rights, enable time-bound role elevation, and audit all privileged activity — key best practices in Identity and Access Management (IAM).
+This project demonstrates how to implement **Just-in-Time (JIT)** access to privileged roles using **Microsoft Entra Privileged Identity Management (PIM)**. The objective is to reduce standing admin rights, enable time-bound role elevation, and audit all privileged activity — key best practices in Identity and Access Management (IAM).
 
 ---
 
