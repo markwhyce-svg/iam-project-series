@@ -29,12 +29,12 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 
 ---
 
-### ✅ 1. Enabled PIM in the Tenant
+### ✅ 1. Access Privileged Identity Management
 
-- Navigated to **Microsoft Entra > Privileged Identity Management**
-- Clicked **Consent** to activate role management via PIM
+- Open **Microsoft Entra > Identity Governance > Privileged Identity Management**
+- PIM was already enabled for the tenant, so no consent step was required
 
-📸 ![Enable PIM Consent](screenshots/pim-enable-consent.png)
+📸 ![PIM Dashboard](screenshots/pim-dashboard.png)
 
 ---
 
