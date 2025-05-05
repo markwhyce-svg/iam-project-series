@@ -5,9 +5,6 @@
 This project demonstrates how to implement **Just-in-Time (JIT)** access to privileged roles using **Microsoft Entra Privileged Identity Management (PIM)**.  
 The objective is to reduce standing admin rights, enable time-bound role elevation, and audit all privileged activity — key best practices in Identity and Access Management (IAM).
 
-**Tenant Domain**: `markwhyce.onmicrosoft.com`  
-**License Used**: Microsoft Entra ID P2 (Trial)
-
 ---
 
 ## 🎯 Objectives
@@ -37,7 +34,7 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 - Navigated to **Microsoft Entra > Privileged Identity Management**
 - Clicked **Consent** to activate role management via PIM
 
-📸 `screenshots/pim-enable-consent.png`
+📸 ![Enable PIM Consent](screenshots/pim-enable-consent.png)
 
 ---
 
@@ -47,7 +44,7 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 - Role Assignment Type: `Eligible`  
 - This ensures that elevation must be manually activated with approval and justification
 
-📸 `screenshots/pim-eligible-role-assignment.png`
+📸![Eligible Role Assignment](screenshots/pim-eligible-role-assignment.png)
 
 ---
 
@@ -58,7 +55,7 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 - Set a 1-hour access duration
 - Role status changed from Eligible → Active
 
-📸 `screenshots/pim-role-activation.png`
+📸![JIT Role Activation](screenshots/pim-role-activation.png)
 
 ---
 
@@ -68,7 +65,7 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 - Verified role activation event was logged for my user
 - Confirmed timestamp, role type, and justification were captured
 
-📸 `screenshots/pim-audit-log.png`
+📸![PIM Audit Log](screenshots/pim-audit-log.png)
 
 ---
 
@@ -78,17 +75,6 @@ The objective is to reduce standing admin rights, enable time-bound role elevati
 - Eligible roles with Just-in-Time activation provide tighter control over sensitive permissions.
 - Audit trails in PIM allow full visibility into who elevated access, when, and why.
 - Microsoft Entra ID P2 provides a robust solution for enforcing least privilege and zero trust principles in the cloud.
-
----
-
-## 📁 Screenshots
-
-| Filename                        | Description                              |
-|----------------------------------|------------------------------------------|
-| `pim-enable-consent.png`         | PIM consent and enablement screen         |
-| `pim-eligible-role-assignment.png` | Eligible role assignment for Security Admin |
-| `pim-role-activation.png`        | Just-in-Time role elevation screen        |
-| `pim-audit-log.png`              | Audit trail showing role activation       |
 
 ---
 
