@@ -27,7 +27,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
   - ✅ Selected: **A group of users** (recommended) OR **All**
 - Chose test users from the tenant to enable SSPR
 
-📸 `screenshots/sspr-enable-settings.png`
+📸![Enable SSPR](screenshots/sspr-enable-settings.png)
 
 ---
 
@@ -40,7 +40,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
   - ✅ Microsoft Authenticator app (if desired)
 - Disabled security questions for better security (optional)
 
-📸 `screenshots/sspr-authentication-methods.png`
+📸![Authentication Methods Config](screenshots/sspr-authentication-methods.png)
 
 ---
 
@@ -50,7 +50,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
 - Went to [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)
 - Registered phone number and/or email for password recovery
 
-📸 `screenshots/sspr-user-registration.png`
+📸![User Registration](screenshots/sspr-user-registration.png)
 
 ---
 
@@ -62,7 +62,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
 - Received verification via registered method
 - Reset the password successfully
 
-📸 `screenshots/sspr-password-reset-flow.png`
+📸![SSPR Reset Flow](screenshots/sspr-password-reset-flow.png)
 
 ---
 
@@ -74,7 +74,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
   - Duration: 60 seconds (example)
 - Verified protections against brute-force attacks
 
-📸 `screenshots/sspr-lockout-settings.png`
+📸![Lockout Settings](screenshots/sspr-lockout-settings.png)
 
 ---
 
@@ -83,15 +83,5 @@ This project explores how to configure and test **Self-Service Password Reset (S
 - SSPR empowers users to reset passwords without IT support, reducing helpdesk tickets.
 - Recovery method registration is critical and should be enforced at first login.
 - Properly configuring lockout settings protects accounts from password spray and brute force.
-- Testing in private/incognito mode helps simulate a real recovery scenario from an unfamiliar device.
 
 ---
-
-## 📁 Screenshots
-
-```markdown
-![Enable SSPR](screenshots/sspr-enable-settings.png)  
-![Authentication Methods Config](screenshots/sspr-authentication-methods.png)  
-![User Registration](screenshots/sspr-user-registration.png)  
-![SSPR Reset Flow](screenshots/sspr-password-reset-flow.png)  
-![Lockout Settings](screenshots/sspr-lockout-settings.png)
