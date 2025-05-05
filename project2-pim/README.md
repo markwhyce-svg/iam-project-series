@@ -8,7 +8,6 @@ This project demonstrates how to implement **Just-in-Time (JIT)** access to priv
 
 ## 🎯 Objectives
 
-- Enable Privileged Identity Management (PIM) in Microsoft Entra ID
 - Assign privileged roles as **eligible** (not permanently active)
 - Elevate roles temporarily using Just-in-Time access
 - Audit role activations and privileged operations
