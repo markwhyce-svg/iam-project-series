@@ -16,15 +16,6 @@ This project explores how to configure and test **Self-Service Password Reset (S
 
 ---
 
-## 🛠️ Tools Used
-
-- Microsoft Entra Admin Center
-- [SSPR Portal](https://aka.ms/sspr)
-- Test User Accounts (`markwhyce.onmicrosoft.com`)
-- Private/incognito browsers for simulation
-
----
-
 ## 🪜 Steps Performed
 
 ---
