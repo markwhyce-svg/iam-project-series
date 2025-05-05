@@ -30,7 +30,7 @@ This project demonstrates configuring Identity and Access Management (IAM) in **
 ### ✅ 1. Azure Tenant Setup
 
 - Logged into the Azure Portal: [portal.azure.com](https://portal.azure.com)
-- switch to the tenant
+- Switch to the tenant
 
 ---
 
