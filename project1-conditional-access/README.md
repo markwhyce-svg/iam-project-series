@@ -46,7 +46,7 @@ Created the following users inside Azure AD:
 | Michael Akintuyosi  | makintuyosi@markwhyce.onmicrosoft.com     |
 | Taniola Jones       | tjones@markwhyce.onmicrosoft.com          |
 
-📸![Require MFA Policy](screenshots/user-creation.png)
+📸![Creating Users](screenshots/user-creation.png)
 
 ---
 
@@ -60,7 +60,7 @@ Created the following security groups inside Azure AD:
 | Sales-Users | Sales department users               |
 | Interns     | Restricted access users              |
 
-📸![Require MFA Policy](screenshots/group-creation.png)
+📸![Creating Groups](screenshots/group-creation.png)
 
 ---
 
@@ -74,7 +74,7 @@ Created the following security groups inside Azure AD:
 | Jasmine Kinsey      | Interns         |
 | Taniola Jones       | Interns         |
 
-📸![Require MFA Policy](screenshots/group-membership-assignments.png)
+📸![Group Membership Assignments](screenshots/group-membership-assignments.png)
 
 ---
 
@@ -92,8 +92,8 @@ Created the following security groups inside Azure AD:
   - Grant: Require Multi-Factor Authentication (MFA)
 - Policy status: Enabled
   
-📸![Require MFA Policy](screenshots/policy-require-mfa1.png)
-📸![Require MFA Policy](screenshots/policy-require-mfa.png)
+📸![Require MFA For all Users](screenshots/policy-require-mfa1.png)
+📸![Require MFA For all Users](screenshots/policy-require-mfa.png)
 
 ---
 
