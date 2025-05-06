@@ -13,9 +13,9 @@ Welcome to my **IAM Project Series**, where I explore real-world Identity and Ac
 |--------|-------|--------------|
 | ✅ 1 | [Azure AD Conditional Access](./project1-conditional-access) | MFA, device compliance, group targeting |
 | ✅ 2 | [Privileged Identity Management (PIM)](./project2-pim) | Just-in-time access, role elevation, audit logs |
-| ✅ 3 | [SSO with Azure AD (OAuth2 & SAML)](./project4-sso) | OAuth2, SAML, federated identity, app integration |
-| ✅ 4 | [Group-Based Licensing & Lifecycle Automation](./project5-group-licensing) | Dynamic groups, license automation, user onboarding |
-| ✅ 5 | [IAM Audit, Monitoring & Risk Alerts](./project6-iam-audit) | Azure AD logs, sign-in risk detection, alerting |
+| ✅ 3 | [SSO with Azure AD (OAuth2 & SAML)](./project3-sso) | OAuth2, SAML, federated identity, app integration |
+| ✅ 4 | [Group-Based Licensing & Lifecycle Automation](./project4-group-licensing) | Dynamic groups, license automation, user onboarding |
+| ✅ 5 | [IAM Audit, Monitoring & Risk Alerts](./project5-iam-audit) | Azure AD logs, sign-in risk detection, alerting |
 
 ---
 
