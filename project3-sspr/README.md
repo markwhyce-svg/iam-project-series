@@ -25,7 +25,7 @@ This project explores how to configure and test **Self-Service Password Reset (S
 - Navigated to **Microsoft Entra ID → Protection → Password reset**
 - Set **Self-service password reset** to:
   - ✅ Selected: **A group of users** (recommended) OR **All**
-- Chose test users from the tenant to enable SSPR
+- Chose group from the tenant to enable SSPR
 
 📸![Enable SSPR](screenshots/sspr-enable-settings.png)
 
