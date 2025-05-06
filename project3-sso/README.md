@@ -1,4 +1,4 @@
-# 🔐 IAM Project #4: Azure AD ↔ Okta SSO (SAML)
+# 🔐 IAM Project #3: Azure AD ↔ Okta SSO (SAML)
 
 ## 📘 Overview
 This project demonstrates how to implement Single Sign-On (SSO) using the **SAML 2.0** protocol between **Microsoft Azure Active Directory (Azure AD)** as the Identity Provider (IdP) and **Okta** as the Service Provider (SP). This setup simulates how users in Azure AD can seamlessly authenticate into Okta using their Microsoft credentials.
@@ -18,8 +18,6 @@ This project demonstrates how to implement Single Sign-On (SSO) using the **SAML
 - Microsoft Azure AD (Entra ID)
 - Okta Developer Console
 - SAML 2.0 Protocol
-- Incognito browser for testing
-
 ---
 
 ## 🪜 Steps Performed
@@ -27,9 +25,8 @@ This project demonstrates how to implement Single Sign-On (SSO) using the **SAML
 ### ✅ 1. Created SAML App in Okta
 - Created a new app integration using **SAML 2.0**
 - App Name: `AzureAD-SAML-Test`
-- Temporarily used placeholders for ACS URL and Entity ID
-
-📸 Screenshot: `screenshots/okta-saml-app-settings.png`
+  
+📸 ![Okta SAML App Settings](screenshots/okta-saml-app-settings.png)
 
 ---
 
@@ -41,7 +38,7 @@ This project demonstrates how to implement Single Sign-On (SSO) using the **SAML
   - Identifier (Entity ID): `http://www.okta.com/exkr7m223sto4t7Qk697`
   - Reply URL (ACS URL): `https://trial-7574164.okta.com/app/trial-7574164_azureadsamltest_1/exkr7m223sto4t7Qk697/sso/saml`
 
-📸 Screenshot: `screenshots/azure-saml-configuration.png`
+📸![Azure SAML Configuration](screenshots/azure-saml-configuration.png)
 
 ---
 
@@ -54,22 +51,21 @@ This project demonstrates how to implement Single Sign-On (SSO) using the **SAML
 - Destination: Okta ACS URL
 - Enabled JIT Provisioning
 
-📸 Screenshot: `screenshots/okta-saml-idp-settings.png`
-
+📸 ![Okta Identity Provider Settings](screenshots/okta-saml-idp-settings.png)
 ---
 
 ### ✅ 4. Assigned Users & Tested Login
 
 #### Azure AD
-- Assigned `makintuyosi@markwhyce.onmicrosoft.com` to the `Okta SAML App`
+- Assigned users to the `Okta SAML App`
 
-📸 Screenshot: `screenshots/azure-user-assignment.png`
+📸![Azure User Assignment](screenshots/azure-user-assignment.png)
 
 #### Testing
 - Used Azure’s **“Test this application”** button
-- ✅ Successfully redirected to Okta and logged in via SAML
+- ✅ Successfull
 
-📸 Screenshot: `screenshots/sso-success-okta.png`
+📸![SSO Success in Okta](screenshots/sso-success-okta.png)
 
 ---
 
