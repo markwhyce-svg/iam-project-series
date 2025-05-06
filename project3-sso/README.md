@@ -63,7 +63,7 @@ This project demonstrates how to implement Single Sign-On (SSO) using the **SAML
 
 #### Testing
 - Used Azure’s **“Test this application”** button
-- ✅ Successfull
+- ✅ Successful
 
 📸![SSO Success in Okta](screenshots/sso-success-okta.png)
 
