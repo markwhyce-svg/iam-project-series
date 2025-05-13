@@ -35,6 +35,7 @@ This lab explores how to automate license assignment and user onboarding in Azur
 
 📸 Screenshot:  
 ![License Assignment](screenshots/group-license-assignment.png)
+![License Assignment](screenshots/group-license-assignment1.png)
 
 ---
 
@@ -45,6 +46,7 @@ This lab explores how to automate license assignment and user onboarding in Azur
 - Change department to something else → verify license is removed
 
 📸 Screenshot:  
+![Lifecycle Trigger](screenshots/user-lifecycle-change-audit.png)
 ![Lifecycle Trigger](screenshots/user-lifecycle-change.png)
 
 ---
